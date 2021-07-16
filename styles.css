@@ -108,16 +108,15 @@ a {
 .plan-price {
   display: flex;
   flex-basis: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 100px;
   align-items: center;
 }
 
 .plan-button {
-  flex-basis: 100%;
   display: flex;
+  flex-basis: 100%;
   justify-content: space-around;
-  align-items: flex-end;
-  align-content: flex-end;
   height: 60px;
-}
+  align-items: flex-end;
+} 
